@@ -32,7 +32,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://devsearch-production-a1d8.up.railway.app/*']
 
 # Application definition
 
